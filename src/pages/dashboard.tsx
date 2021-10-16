@@ -4,7 +4,7 @@ const Chart = dynamic(() => import('react-apexcharts'), { ssr: false })
 import { ApexOptions } from 'apexcharts'
 
 import { Header } from '../components/Header'
-import { Sidebar } from '../components/Form/Sidebar'
+import { Sidebar } from '../components/Sidebar'
 
 const options: ApexOptions = {
   chart: {

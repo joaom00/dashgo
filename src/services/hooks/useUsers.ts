@@ -3,7 +3,7 @@ import { useQuery } from 'react-query'
 import { api } from '../api'
 
 type User = {
-  id: string
+  id: number
   name: string
   email: string
   createdAt: string
